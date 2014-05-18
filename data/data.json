@@ -1,0 +1,4 @@
+[ {
+	"content": "Text of the article, can contain HTML tags (they are removed)",
+	"name": "Name of the category. Be sure that it matches one of the categories defined in the array of categories given to trainer"
+} ]

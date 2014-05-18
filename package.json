@@ -1,0 +1,28 @@
+{
+	"author": "Lluís Ulzurrun de Asanza Sàez (Sumolari)",
+	"dependencies": {
+		"colors": "~0.6.2",
+		"request": "~2.12.0",
+		"q": "~1.0.0",
+		"yuidocjs": "~0.3.49",
+		"readabilitySAX": "~1.6.1",
+		"hyperquest": "~0.3.0",
+		"natural": "~0.1.27"
+	},
+	"description": "Multinomial naive Bayes classifier",
+	"engines": {
+		"node": "0.10.x"
+	},
+	"scripts": {
+		"trainer": "node run-trainer.js",
+		"processor": "node run-processor.js",
+		"classifier": "node run-classifier.js",
+		"doc": "yuidoc .",
+		"doc-server": "yuidoc . --server 8004"
+	},
+	"license": "",
+	"name": "multinomial-naive-bayes-classifier",
+	"private": false,
+	"repository": "",
+	"version": "0.1.0"
+}
