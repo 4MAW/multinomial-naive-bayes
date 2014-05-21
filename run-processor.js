@@ -13,5 +13,6 @@ processor(
 	"./data/",
 	// Stopwords.
 	JSON.parse( fs.readFileSync( "./data/stopwords.json" ) ),
+	// Chunk size, to split source data in multiple chunks.
 	20000
 );
